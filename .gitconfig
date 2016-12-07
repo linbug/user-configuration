@@ -1,0 +1,9 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Lin Taylor 
+	email = taylorxlin@gmail.com
+[push]
+	default = simple
+[core]
+	editor = /usr/bin/vim
