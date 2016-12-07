@@ -26,9 +26,9 @@ values."
      auto-completion
      ;; better-defaults
      emacs-lisp
+     evil-commentary
      git
      python
-     evil-commentary
      ;; markdown
      ;; org
      ;; (shell :variables
