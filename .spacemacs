@@ -258,6 +258,8 @@ you should place your code here."
   (add-hook 'python-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
   (define-key evil-insert-state-map [tab] 'evil-normal-state)
   (define-key evil-visual-state-map [tab] 'evil-normal-state)
+  ;; remap esc key seq
+  ;;(setq-default evil-escape-key-sequence 'fd')
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
